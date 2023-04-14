@@ -1,49 +1,49 @@
 <p align="left">
-	<img width="300" src="https://drive.google.com/uc?export=view&id=1XfLhaaUsef3sD7c46TC_ZoaorKg-uBFM" />
-	<h2 align="left"> < ADD PROJECT TITLE > </h2>
-	<h4 align="left"> < ADD PROJECT DESCRIPTION > <h4>
+	<h2 align="left">  Fashion-on-Rent  </h2>
+	<h4 align="left"> The project aims to develop a rental site for a fashion-related product <h4>
 </p>
 
----
-[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=for-the-badge&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
-  [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=for-the-badge&logo=appveyor)](INSERT_UI_LINK_HERE)
 
 
 ## Functionalities
-- [ ]  < ADD FUNCTIONALITY >
-- [ ]  < ADD FUNCTIONALITY >
+
+- [X]   <b>Register Controller</b> 
+- [X]   <b>Login Controller</b> 
+- [X]   <b>Custom ErrorHandler</b>
+- [X]   <b>JwtService Added </b>
+- [X]   <b>Access / Refresh Token</b> 
+- [X]   <b>Auth Middleware </b>
+- [X]   <b>User Schema Add </b>
+- [X]   <b>Claim Order Schema </b>
+- [X]   <b>Product Schema </b>
+- [X]   <b>Geospatial Queries Added</b> 
+- [X]   <b>MutliPart FormData Added </b>
+- [X]   <b>Cloudinary Service Added </b>
 
 <br>
 
 
 ## Instructions to run
 
-* Pre-requisites:
-	-  < add pre-requisite >
-	-  < add pre-requisite >
 
 * Directions to setup/install
 ```bash
-< insert code >
+git clone https://github.com/GeekCoderRaj/fashion-on-rent-backend.git
+npm install
+Add APP_PORT, MONGO_URL, SECRET, REFRESH_SECRET, CLOUD Confiuration in .env
 ```
 
 * Directions to execute
 
 ```bash
-< insert code >
+npm run dev
 ```
 
 <br>
-
-## Contributors
-
-* [ < ADD YOUR NAME > ](ADD_PROFILE_URL_HERE)
-
-
 
 <br>
 <br>
 
 <p align="center">
-	Made during 🌙 by DSC KIET
+	Made during 🌙 by DSCKIET
 </p>
